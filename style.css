@@ -1,0 +1,155 @@
+ /* Global setting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* navigation */
+#navbar{
+    background-color: rgb(243, 247, 248);
+    height: 70px;
+    padding: 20px;
+    width: 100%;
+    overflow: visible;
+    
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    margin-right: 15px;
+    display: inline;
+    float: left;
+}
+#navbar ul li a:hover{
+    background: #c0def5;
+}
+#navbar ul li a{
+    
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 20px;
+    
+}
+
+#title{ 
+    margin-left: 28px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+/* Main Part */
+main{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* President */
+
+section article img{
+    margin: 20px;
+    float: left;
+}
+section article p{
+    text-indent: 50px;
+    text-align: justify;
+}
+article section figure {
+    margin-top: 120px;
+    margin-left: 50px;
+    text-align: center;
+}
+article section h1{
+    color: black;
+    margin-top: 50px;
+
+}
+/* Executive */
+/* Vice President */
+
+section article #vicepresident{
+    text-align-last: right;
+    margin-right: 45px;
+}
+section article .vicep {
+    margin: 20px;
+    float: right;
+
+}
+
+section article p{
+    text-indent: 50px;
+    text-align: justify;
+}
+article section figure {
+    margin-top: 120px;
+    margin-left: 50px;
+    text-align: center;
+}
+article section h1{
+    color: black;
+    margin-top: 50px;
+
+}
+
+main article p{
+    color: black;
+}
+
+/* aside */
+
+aside{
+    background-color: lightgray;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-right: 32px;
+    border: 1px solid black;
+    padding: 20px ;
+    float: right;
+}
+section article .entertainment{
+    margin-top: 20px;
+}
+footer{
+    /* border: 2px solid black; */
+    padding: 30px 0px 40px 0px;
+    height: 35px;
+    background-color: #b4051d;
+    text-align: center;
+    margin-top:50px ;
+   
+}
+
+/* Philippine Constitution Page */
+#constitution h1{
+    text-align: center;
+}
+#constitution h2{
+    text-align: center;
+}
+#constitution h3{
+    text-align: center;
+}
+/* #constitution .principles{
+    font-size: 25px;
+} */
+h3{
+    margin-top: 30px;
+}
+.section{
+    text-align: justify;
+}
+#footer{
+    padding: 30px 0px 40px 0px;
+    height: 35px;
+    background-color: #b4051d;
+    text-align: center;
+    margin-top:100px ;
+}
+
+/* Legislative */
